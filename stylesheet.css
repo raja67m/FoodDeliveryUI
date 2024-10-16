@@ -5,13 +5,27 @@
 .main{
    display: flex;
    flex-direction: row;
+   background-color: #f0eded;
 }
 .navbar{
    display: flex;
    flex-direction: row;
    margin-left: 250px;
-   margin-top: 50px;
+   margin-top: 30px;
    
+}
+.notification{
+   width: 23px;
+   height: 23px;
+   margin: 0px;
+   border: none;
+   border-radius: 50%;
+   padding: 2px;
+   background-color: rgb(250, 45, 45);
+   color: white;
+   font-weight: bold;
+  position:absolute;
+  left: 625px;
 }
 h2{
    color: black;
@@ -24,28 +38,147 @@ h2{
    width: 40px;
    height:40px;
    margin-left: 30px;
-   margin: 10px;
 }
 .food-collection{
-   display: grid;
+ display: grid;
   grid-template-columns: repeat(3, 1fr); /* 3 columns */
   grid-template-rows: repeat(2, auto);   /* 2 rows */
   gap: 10px;
-  margin-top: 50px;
-  margin-left: 250px;
+  margin-top: 5px;
+  margin-left: 130px;
 }
 .food1{
    display: flex;
    flex-direction: column;
    border:none;
-   border-radius: 5px;
-   background-color: gainsboro;
-   padding: 10px;
+   padding: 20px;
+   width: 150px;
+   background-color:white;
    margin: 5px;
-
+   box-shadow:
+   13px 13px 21px #9f9f9f,
+   -13px -13px 21px #ffffff;
+ ;
+   
 }
 img{
-   height: 50px;
-   width: 100px;
+   height: 100px;
+   width: 90px;
    mix-blend-mode: multiply;
+   margin: 8px;
+   margin-left:25px;
+   
 }
+p{
+   font-weight: bold;
+   font-size: 15px;
+   text-align: center;
+   letter-spacing: 3px;
+   font-family:sans-serif;
+   margin: 2px;
+}
+label{
+   margin: 3px;
+   text-align: center;
+}
+.add{
+   padding:10px;
+   margin: 5px;
+   border: none;
+   background-color: black;
+   color:white;
+   cursor: pointer;
+   transition: .4s ease-in-out;
+}
+.add:hover{
+   border: 1px solid black;
+   color: black;
+   background-color:transparent;
+   font-weight: bold;
+}
+.shop-card{
+   display: flex;
+   flex-direction: column;
+   width: 400px;
+   height: 650 px;
+   background-color: rgb(238, 232, 232);
+   margin-left: 215px;
+   margin-top: 0px;
+   box-shadow:
+   13px 13px 21px #9f9f9f,
+   -13px -13px 21px #ffffff;
+ ;
+}
+h3{
+   color: rgb(10, 9, 2);
+   margin:5px;
+   padding: 10px;
+}
+.lists{
+   display: flex;
+   flex-direction: row;
+   margin: 5px;
+   padding: 10px;
+   margin-top: 10px;
+   color: black;
+   justify-content: space-between;
+
+}
+.list-img{
+   height: 70px;
+   width: 50px;
+   mix-blend-mode:multiply;
+   
+}
+.listp{
+   color:black;
+   font-size: 18px;
+   margin: 20px;
+   font-weight: bold;
+}
+.buttons{
+   display: flex;
+   flex-direction: row;
+   margin-top: 150px;
+}
+.Amount{
+   padding: 20px;
+   width: 300px;
+   border: none;
+   color: black;
+  font-weight: bold;
+   background-color:rgb(249, 208, 5);
+   cursor: pointer;
+   font-size: 14px;
+   transition: .4s ease-in-out;
+}
+.Amount:hover{
+   background: transparent;
+   border: 1px solid rgb(249, 208, 5) ;
+}
+.close{
+   padding: 20px;
+   width: 300px;
+   border: none;
+   color: white;
+   background-color: black;
+   cursor: pointer;
+   font-size: 14px; 
+   font-weight: bold;
+   transition: .4s ease-in-out;
+}
+.close:hover{
+   background-color: black;
+   background: transparent;
+   color: black;
+   border: 1px solid black; 
+}
+
+
+
+
+
+
+
+
+
